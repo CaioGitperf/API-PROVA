@@ -1,0 +1,90 @@
+
+
+
+
+(1)
+
+/post        /usuario/login
+
+request body
+{
+    "email":"",
+    "senha":""
+}
+
+response
+{
+    "id":0,
+    "email":"",
+    "NOME":""
+}
+
+(2) /POST    /filme/
+
+request body
+{
+    "nome":"",
+    "sinopse":"",
+    "usuario":0,
+    "avaliacao: 0.0,
+    "lancamento": 2020-10-00,
+    "disponivel": true,
+    "imagem":"",
+    "usuario": 0
+}
+
+response
+{
+    "id":1,
+     "nome":"",
+    "sinopse":"",
+    "usuario":0,
+    "avaliacao: 0.0,
+    "lancamento": 2020-10-00,
+    "disponivel": true,
+    "imagem":"",
+    "usuario": 0
+}
+
+
+(3) /put           /filme/:id
+
+request body
+{
+    "nome":"",
+    "sinopse":"",
+    "avaliacao: 0.0,
+    "lancamento": 2020-10-00,
+    "disponivel": true,
+    "imagem":"",
+    "usuario": 0
+}
+
+response(204)
+--sem conteudo
+
+//////////////////////////////
+
+(4)/delete   /filme/:id
+
+response  (204)
+
+///////////////////////////////
+
+(5)/GET     /filme
+
+response
+[
+    {
+    "nome":"",
+    "avaliacao: 0.0,
+    "lancamento": 2020-10-00,
+    "disponivel": true,
+    "usuario": 0
+    }
+]
+
+
+//////////////////////////////
+
+(6)/GET      /FILME]
