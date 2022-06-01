@@ -73,18 +73,47 @@ response  (204)
 
 (5)/GET     /filme
 
-response
+response (200)
 [
     {
     "nome":"",
     "avaliacao: 0.0,
     "lancamento": 2020-10-00,
     "disponivel": true,
-    "usuario": 0
+    "usuario": 0,
     }
 ]
 
 
 //////////////////////////////
 
-(6)/GET      /FILME]
+(6)/GET      /filme/busca?:nome=xxx 
+
+response (200)
+[
+    {
+    "nome":"",
+    "avaliacao: 0.0,
+    "lancamento": 2020-10-00,
+    "disponivel": true,
+    "usuario": 0,
+    }
+]
+
+/////////////////////////////////
+
+(7) /GET     /filme/:id
+
+response (200)
+[
+    {
+    "nome":"",
+    "sinopse":"",
+    "avaliacao: 0.0,
+    "lancamento": 2020-10-00,
+    "disponivel": true,
+    "usuario": 0
+    "imagem":
+    }
+]
+
